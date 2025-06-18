@@ -223,7 +223,7 @@ fun_bar() {
         sleep 1
         tput cuu1 # Kembali ke baris sebelumnya
         tput dl1   # Hapus baris sebelumnya
-        echo -ne "  \033[0;33mLagi Menginstal File \033[1;37m- \033[0;33m["
+        echo -ne "  \033[0;33mSabar Dek, Lagi Menginstal File \033[1;37m- \033[0;33m["
     done
     
     echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
